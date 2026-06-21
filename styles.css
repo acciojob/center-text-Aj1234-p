@@ -1,11 +1,18 @@
 /*  your css code here. If applicable */
-#center-image{
-	width:400px;
-	height:400px;
-	background-image: url("https://www.globalfocusmagazine.com/wp-content/uploads/2020/02/Engaging_with_technology-scaled.jpg");
-	background-repeat: no-repeat;
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
 }
-#center-image h1{
+#center-image{
+	width:600px;
+	height:400px;
+	background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_Z5mVJ-GcZWRJf4Lzk93TVs5sGATPOLQBIn4Tob82MANMysmC");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+#center-image p{
    text-align:center;	
 	color:white;
 }
